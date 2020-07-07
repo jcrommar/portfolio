@@ -300,16 +300,16 @@ section{
   width: 70%;
 }
 
-.php:after{
-  width: 60%;
+.python:after{
+  width: 50%;
 }
 
 .mysql:after{
-  width: 90%;
+  width: 70%;
 }
 
-.cs:after{
-  width: 80%;
+.sql:after{
+  width: 60%;
 }
 
 section.dark{
@@ -434,7 +434,7 @@ section.dark .section-title::after{
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: #F53240cc;
+  background-color: #F53240;
   transition: .2s linear;
   opacity: 0;
   transform: scale(0);
@@ -487,7 +487,7 @@ section.dark .section-title::after{
 }
 
 .contact-info .item:hover{
-  background-color: #48dbfb;
+  background-color: #F53240;
 }
 
 .contact-form{
@@ -520,9 +520,9 @@ section.dark .section-title::after{
 .contact-form .btn{
   width: 180px;
   background-color: transparent;
-  color: #48dbfb;
+  color: #F53240;
   font-size: 16px;
-  border: 2px solid #48dbfb;
+  border: 2px solid #F53240;
   padding: 0;
   margin-left: auto;
   cursor: pointer;
@@ -530,7 +530,7 @@ section.dark .section-title::after{
 }
 
 .contact-form .btn:hover{
-  background-color: #48dbfb;
+  background-color: #F53240;
   color: #fff;
 }
 
@@ -548,7 +548,7 @@ footer{
 
 .copyright a{
   font-size: 16px;
-  color: #48dbfb;
+  color: #F53240;
   font-weight: 500;
 }
 
@@ -559,7 +559,7 @@ footer{
   right: 40px;
   width: 40px;
   height: 40px;
-  background-color: #48dbfb;
+  background-color: #F53240;
   border: none;
   border-radius: 6px;
   cursor: pointer;
