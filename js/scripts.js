@@ -24,3 +24,6 @@ $(document).ready(function(){
   });
 });
 
+$("html").on("contextmenu",function(e){
+  return false;
+});
