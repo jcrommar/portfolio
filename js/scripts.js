@@ -24,6 +24,7 @@ $(document).ready(function(){
   });
 });
 
+//This prevents right-click function on the web page. 
 $("html").on("contextmenu",function(e){
   return false;
 });
