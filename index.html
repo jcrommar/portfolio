@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+  <?php
+  header('Location: https://jcrommar.github.io/portfolio/');
+  exit;
+  ?>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -305,9 +309,9 @@
         </div>
       </div>
 
-      <form action="#" class="contact-form">
-        <input type="text" class="nameZone" placeholder="Your Full Name">
-        <input type="email" class="emailZone" placeholder="Your Email">
+      <form method="POST" action="/action.php" class="contact-form">
+        <input type="text" class="nameZone" placeholder="Full Name">
+        <input type="email" class="emailZone" placeholder="Email Address">
         <input type="text" class="subjectZone" placeholder="Subject">
         <textarea class="messageZone" placeholder="Message"></textarea>
         <input type="submit" value="Send Message" class="btn">
