@@ -686,10 +686,12 @@ footer{
   --animate-repeat: 2;
 }
 
+
+/*Tech Proficiency Section*/
 .grid-5 {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 7px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .center {
@@ -709,15 +711,14 @@ footer{
   cursor: pointer;
 }
 
-.technology-container {
+#technology-section {
   background-color: #353b48;
 }
 
-.technology-container p {
-  color: white;
+#technology-section h4 {
+  color:#f1f1f1;
   margin: 5px;
   padding: 5px;
-  text-decoration: none;
   font-family: "Ubuntu",sans-serif;
   box-sizing: border-box;
 }
