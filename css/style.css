@@ -690,8 +690,8 @@ footer{
 /*Tech Proficiency Section*/
 .grid-5 {
   display: grid;
-  grid-gap: 8px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .center {
