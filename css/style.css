@@ -685,3 +685,39 @@ footer{
   animation-duration: 2s; /* don't forget to set a duration! */
   --animate-repeat: 2;
 }
+
+.grid-5 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.tech-logo {
+  height: 50px;
+  width: 50px;
+  filter: grayscale(75%);
+}
+
+.tech-logo:hover {
+  filter: none;
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.technology-container {
+  background-color: #353b48;
+}
+
+.technology-container p {
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-family: "Ubuntu",sans-serif;
+  box-sizing: border-box;
+}
