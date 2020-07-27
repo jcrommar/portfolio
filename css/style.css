@@ -685,3 +685,40 @@ footer{
   animation-duration: 2s; /* don't forget to set a duration! */
   --animate-repeat: 2;
 }
+
+
+/*Tech Proficiency Section*/
+.grid-5 {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.tech-logo {
+  height: 50px;
+  width: 50px;
+  filter: grayscale(75%);
+}
+
+.tech-logo:hover {
+  filter: none;
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+#technology-section {
+  background-color: #353b48;
+}
+
+#technology-section h4 {
+  color:#f1f1f1;
+  margin: 5px;
+  padding: 5px;
+  font-family: "Ubuntu",sans-serif;
+  box-sizing: border-box;
+}
