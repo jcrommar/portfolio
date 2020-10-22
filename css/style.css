@@ -139,9 +139,12 @@ html {
     content: "NetSuite Administrator";
   }
   50%{
-    content: "Software Engineer";
+    content: "NetSuite Developer";
   }
   75%{
+    content: "Software Engineer";
+  }
+  100%{
     content: "Web Developer";
   }
 }
@@ -731,3 +734,10 @@ footer{
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+/* Left align widget */
+.calendly-badge-widget {
+  right: auto !important;
+  left: 20px !important;
+}
+/* End left align widget */
