@@ -112,8 +112,8 @@ html {
 }
 
 @media screen and (max-width: 768px){
-  #home {
-    element: attribute;
+  #home .inner-width{
+      display: block;
   }
 }
 
