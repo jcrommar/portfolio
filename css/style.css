@@ -124,6 +124,12 @@ html {
   }
 }
 
+@media screen and (max-width: 992px) {
+  #parallax {
+      background-attachment: scroll;
+  }
+}
+
 #home .inner-width{
   display: flex;
   align-items: center;
