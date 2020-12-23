@@ -11,7 +11,7 @@ html {
 }
 
 ::selection {
-  background-color: #F53240;
+  background-color: #308696;
 }
 
 ::-webkit-scrollbar {
@@ -20,7 +20,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #F53240;
+  background-color: #308696;
 }
 
 .navbar{
@@ -83,7 +83,7 @@ html {
 }
 
 .navbar-menu a:hover{
-  color: #F53240 !important;
+  color: #308696 !important;
 }
 
 .sticky{
@@ -106,9 +106,10 @@ html {
 #home{
   height: 100vh;
   min-height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://professional-electrician.com/wp-content/uploads/2019/11/COPYRIGHT-PESHKOV.jpeg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://professional-electrician.com/wp-content/uploads/2019/11/COPYRIGHT-PESHKOV.jpeg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 768px){
@@ -163,7 +164,7 @@ html {
 }
 
 .sm a:hover{
-  color: #F53240;
+  color: #308696;
 }
 
 #home .buttons{
@@ -173,11 +174,11 @@ html {
 #home .buttons a{
   display: inline-block;
   margin: 15px 30px;
-  color: #F53240;
+  color: #308696;
   font-size: 15px;
   font-weight: 500;
   width: 180px;
-  border: 1px solid #F53240;
+  border: 1px solid #308696;
   padding: 14px 0;
   border-radius: 6px;
   transition: .2s linear;
@@ -186,7 +187,7 @@ html {
 #home .buttons a:hover,
 #home .buttons a:nth-child(2)
 {
-  background-color: #F53240;
+  background-color: #308696;
   color: #fff;
 }
 
@@ -219,7 +220,7 @@ section{
   position: absolute;
   width: 16px;
   height: 10px;
-  background-color: #F53240;
+  background-color: #308696;
   border: 4px solid #f1f1f1;
   left: calc(50% - 12px);
   bottom: -7px;
@@ -294,7 +295,7 @@ section{
   content: "";
   position: absolute;
   height: 6px;
-  background-color: #F53240;
+  background-color: #308696;
   bottom: 0;
 }
 
@@ -347,7 +348,7 @@ section.dark .section-title::after{
 .service{
   width: calc(33% - 20px);
   text-align: center;
-  border: 1px solid #F53240;
+  border: 1px solid #308696;
   border-radius: 6px;
   margin: 20px 0;
   padding: 40px 20px;
@@ -357,7 +358,7 @@ section.dark .section-title::after{
 }
 
 .service .icon{
-  color: #F53240;
+  color: #308696;
   font-size: 40px;
   margin-bottom: 20px;
   transition: .3s linear;
@@ -369,7 +370,7 @@ section.dark .section-title::after{
 }
 
 .service:hover{
-  background-color: #F53240;
+  background-color: #308696;
 }
 
 .service:hover .icon{
@@ -407,7 +408,7 @@ section.dark .section-title::after{
   position: absolute;
   width: 16px;
   height: 16px;
-  background-color: #F53240;
+  background-color: #308696;
   left: -28px;
   top: 30px;
   border-radius: 50%;
@@ -444,7 +445,7 @@ section.dark .section-title::after{
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: #F53240;
+  background-color: #308696;
   transition: .2s linear;
   opacity: 0;
   transform: scale(0);
@@ -497,7 +498,7 @@ section.dark .section-title::after{
 }
 
 .contact-info .item:hover{
-  background-color: #F53240;
+  background-color: #308696;
 }
 
 .contact-form{
@@ -530,9 +531,9 @@ section.dark .section-title::after{
 .contact-form .btn{
   width: 180px;
   background-color: transparent;
-  color: #F53240;
+  color: #308696;
   font-size: 16px;
-  border: 2px solid #F53240;
+  border: 2px solid #308696;
   padding: 0;
   margin-left: auto;
   cursor: pointer;
@@ -540,7 +541,7 @@ section.dark .section-title::after{
 }
 
 .contact-form .btn:hover{
-  background-color: #F53240;
+  background-color: #308696;
   color: #fff;
 }
 
@@ -558,7 +559,7 @@ footer{
 
 .copyright a{
   font-size: 16px;
-  color: #F53240;
+  color: #308696;
   font-weight: 500;
 }
 
@@ -569,7 +570,7 @@ footer{
   right: 40px;
   width: 40px;
   height: 40px;
-  background-color: #F53240;
+  background-color: #308696;
   border: none;
   border-radius: 6px;
   cursor: pointer;
